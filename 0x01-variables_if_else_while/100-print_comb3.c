@@ -12,7 +12,8 @@ int main(void)
 
 	for (x = 0; x < 100; x++)
 	{
-		putchar(x + '0');
+		putchar((x / 10) + '0');
+		putchar((x % 10) + '0');
 		if (x < 99)
 		{
 		putchar(',');
