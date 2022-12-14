@@ -7,7 +7,7 @@
 
 void print_alphabet_x10(void)
 {
-	int lines;
+	int lines = 0;
 	int cha;
 
 	while (lines <= 9)
