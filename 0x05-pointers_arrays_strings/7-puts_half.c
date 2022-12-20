@@ -19,10 +19,10 @@ void puts_half(char *str)
 		for (j = l / 2; str[j] != '\0'; ++j)
 			_putchar(str[j]);
 	}
-	else
+else
 	{
-		for (j = ((l - 1) / 2) + 1; str[j] != '\0'; ++j)
-		       _putchar(str[j]);
+	for (j = ((l - 1) / 2) + 1; str[j] != '\0';)
+		_putchar(str[j]);
 	}
 	_putchar('\n');
 }
